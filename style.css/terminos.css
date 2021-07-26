@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+.contenedor{
+    padding: 25px 0;
+    width: 70%;
+    margin: auto;
+    max-width: 1150px;
+    overflow: hidden;
+    background: #e7dbc4;
+   }
+   
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    }
+
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 120%;
+}
+
+.hero-section {
+    background: url(../img/portada3.jpg) 50% no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+
+  .fondo{
+     background-color: black !important;
+  }
+  
+  .fondo a:hover {
+      color: hsla(41, 79%, 29%, 0.7);
+  }
+
+  .fondo a{
+    color: white;
+ }
+
+/*****************************************************TERMINOS***************************************************************************/
+
+.terminos{
+    background: #e7dbc4;
+}
+
+
+ /*****************************************************FOOTER***************************************************************************/
+
+.footer{
+    background: black;
+}
+
+a{
+    color: white;
+}
+
+.footer a:hover {
+    color: hsla(41, 79%, 29%, 0.7);
+}
+
+/*******************************************************SOCIAL**********************************************************************/
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 70%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook{
+    background: #2b4892;
+}
+
+.icon-twitter{
+    background: #339dc5;
+}
+
+.icon-instagram{
+    background: #E1306C;
+}
+
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.50);
+}

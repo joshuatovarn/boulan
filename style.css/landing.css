@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+/*******************************HEADER************************************/
+
+.contenedor{
+    padding: 25px 0;
+    width: 70%;
+    margin: auto;
+    max-width: 1150px;
+    overflow: hidden;
+    background: #e7dbc4;
+   }
+   
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    }
+
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.hero-section {
+    background: url(../img/portada3.jpg) 50% no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+
+  .fondo{
+     background-color: black !important;
+  }
+  
+  .fondo a:hover {
+      color: hsla(41, 79%, 29%, 0.7);
+  }
+
+  .fondo a{
+    color: white;
+ }
+
+ /*******************************************NOSOTROS**************************************************/
+
+ .contenedor-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #e7dbc4;
+}
+
+.imagen-about-us{
+    width: 48%;
+    background: #e7dbc4;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+    background: #e7dbc4;
+}
+
+/**********************************************PRODUCTOS**************************************************/
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    margin-bottom: 10px;
+    width: 24%;
+    position: relative;
+    cursor: pointer;
+    box-shadow:  0 0 6px 0 rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.imagen-port img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(41, 79%, 29%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+/*************************************************SOCIAL************************************/
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 70%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook{
+    background: #2b4892;
+}
+
+.icon-twitter{
+    background: #339dc5;
+}
+
+.icon-instagram{
+    background: #E1306C;
+}
+
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.50);
+}
+
+/*****************************************************UBICACION**************************************/
+
+th{
+    background: #e7dbc4;
+}
+
+td{
+    background: #e7dbc4;
+}
+
+
+/******************************************************FOOTER*******************************************/
+
+.footer{
+    background: black;
+}
+
+a{
+    color: white;
+}
+
+.footer a:hover {
+    color: hsla(41, 79%, 29%, 0.7);
+}
+
+/***********************************************BACKGROUND********************************************/
+
+.contacto{
+    background: #e7dbc4;
+}
+
+.ubicacion{
+    background: #e7dbc4;
+}
+
+.productos{
+    background: #e7dbc4;
+}
+
+.nosotros{
+    background: #e7dbc4;
+}
+
+/******************************************RESPONSIVE***************************************************/
+
+@media screen and (max-width:1000px){
+    .contenedor-nosotros{
+        width: 100%;
+ }
+
+ .imagen-about-us{
+     width: 80%;
+     margin-bottom: 30px;
+ }
+ .sobre-nosotros .contenido-textos{
+    width: 80%;
+}
+
+.contenedor{
+    width: 100%;
+
+}
+
+.imagen-port{
+    width: 45%;
+}
+
+}
