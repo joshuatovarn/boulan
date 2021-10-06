@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,30 +7,36 @@
 
 }
 
-.contenedor{
+.contenedor {
     padding: 25px 0;
     width: 70%;
     margin: auto;
     max-width: 1150px;
     overflow: hidden;
     background: #e7dbc4;
-   }
-   
-h2{
+}
+
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 8vh;
+}
+
+h2 {
+    font-size: 2rem;
     text-align: center;
     margin-bottom: 40px;
-    font-family: 'Oleo Script Swash Caps', cursive;
-    }
-
-h1{
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-h3{
+h3 {
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 120%;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
 }
 
 .hero-section {
@@ -42,56 +48,58 @@ h3{
     display: -ms-flexbox;
     display: flex;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .hero-section .hero-section-text {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero-section .hero-section-text {
     color: #fefefe;
     text-shadow: 1px 1px 2px #0a0a0a;
-  }
+}
 
-  .fondo{
-     background-color: black !important;
-  }
-  
-  .fondo a:hover {
-      color: hsla(41, 79%, 29%, 0.7);
-  }
+.fondo {
+    background-color: black !important;
+}
 
-  .fondo a{
+.fondo a:hover {
+    color: hsla(41, 79%, 29%, 0.7);
+}
+
+.fondo a {
     color: white;
- }
+    transition: all .3s ease-in-out;
+    font-size: 1rem;
+}
 
- /*************************************EMPLEO****************************************************/
+/*************************************EMPLEO****************************************************/
 
- .empleo{
+.empleo {
     background: #e7dbc4;
- }
+}
 
- .experts{
+.experts {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.cont-expert{
+.cont-expert {
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.cont-expert img{
+.cont-expert img {
     width: 80%;
     display: block;
     margin: 0 auto;
 }
 
-.n-expert{
+.n-expert {
     display: inline-block;
     margin-top: 20px;
     width: 100%;
@@ -101,12 +109,14 @@ h3{
 
 /******************************************************FOOTER**********************************************/
 
-.footer{
+.footer {
     background: black;
 }
 
-a{
+.footer a {
     color: white;
+    transition: all .3s ease-in-out;
+    font-size: 1rem;
 }
 
 .footer a:hover {
@@ -115,7 +125,7 @@ a{
 
 /*******************************************************SOCIAL***********************************************/
 
-.social-bar{
+.social-bar {
     position: fixed;
     right: 0;
     top: 70%;
@@ -126,7 +136,7 @@ a{
     z-index: 100;
 }
 
-.icon{
+.icon {
     color: white;
     text-decoration: none;
     padding: .7rem;
@@ -134,28 +144,28 @@ a{
     transition: all .5s;
 }
 
-.icon-facebook{
+.icon-facebook {
     background: #2b4892;
 }
 
-.icon-twitter{
+.icon-twitter {
     background: #339dc5;
 }
 
-.icon-instagram{
+.icon-instagram {
     background: #E1306C;
 }
 
 
-.icon:first-child{
+.icon:first-child {
     border-radius: 1rem 0 0 0;
 }
 
-.icon:last-child{
+.icon:last-child {
     border-radius: 0 0 0 1rem;
 }
 
-.icon:hover{
+.icon:hover {
     padding-right: 3rem;
     border-radius: 1rem 0 0 1rem;
     box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.50);
