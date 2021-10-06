@@ -80,7 +80,7 @@ p {
 
 .contenedor-nosotros {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
@@ -107,7 +107,7 @@ p {
 
 .imagen-port {
     margin-bottom: 10px;
-    width: 24%;
+    width: 25%;
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
@@ -253,7 +253,7 @@ td {
     }
 
     .contenedor {
-        width: 100%;
+        width: 90%;
 
     }
 
